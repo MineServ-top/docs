@@ -1,8 +1,7 @@
 - [🌟 Главная](README.md)
 
 - 🏅 Сисиема Поощрений
-  - [🚀 Что Это Такое](/docs/RewardSystem/RewardMethods.md)
-    - Способы Реализации
+    - 🚀 **Способы Реализации**
       - [🌸 Какой Способ Выбрать](/docs/RewardSystem/RewardMethods.md)
       - [🏎️ Способ с NodeJS](/docs/RewardSystem/NodeJS-Module-Method.md)
       - [👾 Способ с RCON](/docs/RewardSystem/RCON-Method.md)
