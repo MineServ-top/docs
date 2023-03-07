@@ -23,7 +23,7 @@ body:not(.ready) {
 
 .search input {
 	border: 1px solid #0d2538 !important;
-	background: linear-gradient(90deg, #000814,#000c14,#001912)!important;
+	background: #001912!important;
 	margin: 0 auto;
 	color: #b4b4b4;
 	width: 90% !important;
