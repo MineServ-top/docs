@@ -22,10 +22,10 @@ body:not(.ready) {
 }
 
 .search input {
-	border: 1px solid var(--borderColor) !important;
-	background-color: var(--background) !important;
+	border: 1px solid #0d2538 !important;
+	background: linear-gradient(90deg, #000814,#000c14,#001912)!important;
 	margin: 0 auto;
-	color: var(--textColor);
+	color: #b4b4b4;
 	width: 90% !important;
 	border-radius: 15px;
 	text-indent: 15px;
@@ -54,7 +54,7 @@ div#app:empty:before {
 }
 
 .progress {
-	background-color: var(--accent);
+	background-color: #42b983;
 	height: 2px;
 	left: 0;
 	position: fixed;
@@ -67,7 +67,7 @@ div#app:empty:before {
 
 .search .search-keyword,
 .search a:hover {
-	color: var(--accent)
+	color: #42b983
 }
 
 .search .search-keyword {
@@ -83,9 +83,9 @@ html {
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	color: var(--textColor);
-	font-family: var(--siteFont), Helvetica Neue, Arial, sans-serif;
-	font-size: var(--bodyFontSize);
+	color: #b4b4b4;
+	font-family: PT Sans, Helvetica Neue, Arial, sans-serif;
+	font-size: 17px;
 	letter-spacing: 0;
 	margin: 0;
 	overflow-x: hidden;
@@ -158,11 +158,11 @@ li input[type=checkbox] {
 
 .app-nav a.active,
 .app-nav a:hover {
-	color: var(--accent)
+	color: #42b983
 }
 
 .app-nav a.active {
-	border-bottom: 2px solid var(--accent)
+	border-bottom: 2px solid #42b983
 }
 
 .app-nav li {
@@ -229,7 +229,7 @@ li input[type=checkbox] {
 
 .github-corner svg {
 	color: #fff;
-	fill: var(--accent);
+	fill: #42b983;
 	height: 70px;
 	width: 70px
 }
@@ -253,7 +253,7 @@ main.hidden {
 }
 
 .anchor span {
-	color: var(--textColor);
+	color: #b4b4b4;
 }
 
 .anchor:hover {
@@ -261,7 +261,7 @@ main.hidden {
 }
 
 .sidebar {
-	border-right: 1px solid var(--borderColor);
+	border-right: 1px solid #0d2538;
 	overflow-y: auto;
 	padding: 40px 0 0;
 	position: absolute;
@@ -360,7 +360,7 @@ main.hidden {
 }
 
 .sidebar-toggle span {
-	background-color: var(--accent);
+	background-color: #42b983;
 	display: block;
 	margin-bottom: 4px;
 	width: 16px;
@@ -435,7 +435,7 @@ body.sticky .sidebar-toggle {
 
 .markdown-section p.tip,
 .markdown-section tr:nth-child(2n) {
-	background-color: var(--codeBackgroundColor)
+	background-color: #0e2233
 }
 
 .markdown-section p.tip {
@@ -562,23 +562,6 @@ body.close .content {
 		-webkit-animation: octocat-wave .56s ease-in-out;
 		animation: octocat-wave .56s ease-in-out
 	}
-
-	#docsify-darklight-theme {
-		position: absolute;
-		left: 10px;
-		top: 15px;
-		width: 25px;
-		height: 25px;
-		background-repeat: no-repeat;
-		background-image: var(--toogleImage);
-		-o-background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size:cover;
-		background-size: cover;
-		cursor: pointer;
-		user-select: none;
-		transition: background-image .15s ease-in-out .15s
-	}
 }
 
 @-webkit-keyframes octocat-wave {
@@ -689,7 +672,7 @@ section.cover ul {
 
 section.cover .cover-main>p:last-child a {
 	border-radius: 2rem;
-	border: 1px solid var(--accent);
+	border: 1px solid #42b983;
 	box-sizing: border-box;
 	color: #e0e0e0;
 	display: inline-block;
@@ -702,7 +685,7 @@ section.cover .cover-main>p:last-child a {
 }
 
 section.cover .cover-main>p:last-child a:last-child {
-	background-color: var(--accent);
+	background-color: #42b983;
 	color: #fff
 }
 
@@ -716,22 +699,22 @@ section.cover .cover-main>p:last-child a:hover {
 }
 
 section.cover blockquote>p>a {
-	border-bottom: 2px solid var(--accent);
+	border-bottom: 2px solid #42b983;
 	transition: color .3s
 }
 
 section.cover blockquote>p>a:hover {
-	color: var(--accent)
+	color: #42b983
 }
 
 .sidebar,
 body {
-	background-color: var(--background);
+	background: linear-gradient(90deg, #000814,#000c14,#001912)!important;
 	transition: background-image .15s ease-in-out .15s;
 }
 
 .sidebar {
-	color: var(--textColor);
+	color: #b4b4b4;
 }
 
 .sidebar li {
@@ -739,7 +722,7 @@ body {
 }
 
 .sidebar ul li a {
-	color: var(--sidebarSublink);
+	color: #b4b4b4;
 	font-size: 14px;
 	font-weight: 400;
 	overflow: hidden;
@@ -758,7 +741,7 @@ body {
 
 .sidebar ul li.active>a {
 	border-right: 2px solid;
-	color: var(--accent);
+	color: #42b983;
 	font-weight: 600
 }
 
@@ -773,12 +756,12 @@ body {
 .markdown-section h3,
 .markdown-section h4,
 .markdown-section strong {
-	color: var(--textColor);
+	color: #b4b4b4;
 	font-weight: 600
 }
 
 .markdown-section a {
-	color: var(--accent);
+	color: #42b983;
 	font-weight: 600;
 	text-decoration: none;
 }
@@ -829,8 +812,8 @@ body {
 }
 
 .markdown-section blockquote {
-	border-left: 4px solid var(--accent);
-	color: var(--blockQuoteColor);
+	border-left: 4px solid #42b983;
+	color: #858585;
 	margin: 2em 0;
 	padding-left: 20px
 }
@@ -850,7 +833,7 @@ body {
 
 .markdown-section code {
 	border-radius: 2px;
-    color: var(--highlightColor);
+    color: #d22778;
     font-size: .9rem;
     margin: 0 2px;
     padding: 3px 5px;
@@ -860,8 +843,8 @@ body {
 
 .markdown-section code,
 .markdown-section pre {
-	background-color: var(--codeBackgroundColor);
-	font-family: var(--codeFontFamily);
+	background-color: #0e2233;
+	font-family: "Roboto Mono, Monaco, courier, monospace";
 }
 
 .markdown-section pre {
@@ -904,7 +887,7 @@ body {
 }
 
 .token.string {
-	color: var(--accent)
+	color: #42b983
 }
 
 .token.selector {
@@ -926,7 +909,7 @@ body {
 .token.control,
 .token.directive,
 .token.unit {
-	color: var(--accent)
+	color: #42b983
 }
 
 .token.function,
@@ -974,9 +957,9 @@ body {
 .markdown-section pre>code {
 	-moz-osx-font-smoothing: initial;
 	-webkit-font-smoothing: initial;
-	background-color: var(--codeBackgroundColor);
+	background-color: #0e2233;
 	border-radius: 2px;
-	color: var(--codeTextColor);
+	color: #ffffff;
 	display: block;
 	font-family: Roboto Mono, Monaco, courier, monospace;
 	font-size: .8rem;
@@ -1002,7 +985,7 @@ code .token {
 }
 
 pre:after {
-	color: var(--codeTypeColor);
+	color: #ffffff;
 	content: attr(data-lang);
 	font-size: .6rem;
 	font-weight: 600;
@@ -1013,29 +996,6 @@ pre:after {
 	right: 0;
 	text-align: right;
 	top: 0
-}
-
- /* toogler */
-
- #docsify-darklight-theme {
-	position: absolute;
-	right: 10px;
-    top: 15px;
-	width: 25px;
-	height: 25px;
-	background-repeat: no-repeat;
-	background-image: var(--toogleImage);
-	-o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size:cover;
-    background-size: cover;
-	cursor: pointer;
-	user-select: none;
-	transition: background-image .15s ease-in-out .15s
-}
-
-#docsify-darklight-theme p {
-	visibility: hidden
 }
 
 /* .tooltip {
