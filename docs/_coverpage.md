@@ -1,6 +1,4 @@
-
-
-# Mineserv Docs
+# Mineserv.top <small>docs</small>
 
 > Документация по дополнениям Mineserv.top
 
