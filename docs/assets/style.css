@@ -261,6 +261,7 @@ main.hidden {
 }
 
 .sidebar {
+	background: #000814;
 	border-right: 1px solid #0d2538;
 	overflow-y: auto;
 	padding: 40px 0 0;
