@@ -708,7 +708,7 @@ section.cover blockquote>p>a:hover {
 	color: #42b983
 }
 
-.sidebar,
+
 body {
 	background: linear-gradient(90deg, #000814,#000c14,#001912)!important;
 	transition: background-image .15s ease-in-out .15s;
