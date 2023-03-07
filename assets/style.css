@@ -835,7 +835,7 @@ body {
 .markdown-section code {
 	border-radius: 2px;
     color: #d22778;
-    font-size: .9rem;
+    font-size: 1rem;
     margin: 0 2px;
     padding: 3px 5px;
     white-space: pre-wrap;
@@ -845,7 +845,7 @@ body {
 .markdown-section code,
 .markdown-section pre {
 	background-color: #0e2233;
-	font-family: "Roboto Mono, Monaco, courier, monospace";
+	/*font-family: "Roboto Mono, Monaco, courier, monospace";*/
 }
 
 .markdown-section pre {
