@@ -622,7 +622,7 @@ section.cover {
 
 section.cover.show {
 	display: flex;
-	background: var(--coverBackground)!important;
+	background: linear-gradient(90deg, #000814,#000c14,#001912)!important;
 }
 
 section.cover.has-mask .mask {
