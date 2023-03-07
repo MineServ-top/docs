@@ -3,4 +3,4 @@
 > Документация по дополнениям Mineserv.top
 
 [Сайт](https://mineserv.top)
-[Документация](#docs)
+[Документация](/README.md)
