@@ -5,4 +5,4 @@
 > Документация по дополнениям MineServ.top
 
 [Сайт](https://mineserv.top)
-[Документация](#headline)
+[Документация](#docs)
