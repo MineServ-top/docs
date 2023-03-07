@@ -691,7 +691,7 @@ section.cover .cover-main>p:last-child a {
 	border-radius: 2rem;
 	border: 1px solid var(--accent);
 	box-sizing: border-box;
-	color: var(--accent);
+	color: #e0e0e0;
 	display: inline-block;
 	font-size: 1.05rem;
 	letter-spacing: .1rem;
